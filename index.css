@@ -1,0 +1,75 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background-color: black;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#Front {
+    position: relative;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.Header {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.nav {
+    justify-content: flex-end;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.TitlePage {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+}
+
+#Front h1 {
+    font-size: 60px;
+    border-bottom: 2px solid white;
+}
+
+#Front h2 {
+    font-size: 25px;
+    text-transform: thin;
+}
+
+#Main {
+    flex-wrap: wrap;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.Section1 {
+    background-color: black;
+    flex-direction: row;
+    
+}
+
+.Section2 {
+    background-color: #222222;
+    flex-direction: row;
+}
+
+.Section3 {
+    background-color: #444444;
+    flex-direction: row;
+}
